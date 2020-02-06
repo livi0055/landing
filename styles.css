@@ -10,29 +10,22 @@
     margin-right: auto;
     width: auto;
     height: auto;
-/*comment*/
+/*changed to fit screen size */
   }
-  div.hours{
-   
-  }
-  div.city{
- 
-  }
+  
   div.cal{
     position: absolute;
     bottom: 8px;
-    
-   
     margin: 10px;
     left: -10px
   }
-
+/*changed to fit screen size */
   div.links{
     position: absolute;
     bottom: -20px;
     justify-content: ;
   }
-
+/*changed to fit screen size */
   form.firstform{
     display: flex;
     position: absolute;
@@ -50,6 +43,7 @@
   }
   body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
+/*font change*/
 
 input[type=text], select, textarea {
   width: auto;
@@ -70,7 +64,7 @@ input[type=text], select, textarea {
   margin: 4px 2px;
   cursor: pointer;
 }
-
+/*color and boldness of button*/
 .button2 {
   background-color: #ff8480;
   border: none;
@@ -84,6 +78,7 @@ input[type=text], select, textarea {
   cursor: pointer;
   width: 310px;
 }
+/*color and boldness of button*/
 section.labels{
   display: flex;
   flex-direction: column;
@@ -97,12 +92,14 @@ section.labels{
    height: 90px;
  
   }
+  /*changing logo placment and size*/
 
   .container{
     display: flex;
     flex-direction: column-reverse;
     text-align: left;
     }
+    /*fixing size*/
     .top-left{
       display: flex;
       margin: left;
@@ -112,10 +109,12 @@ section.labels{
     .bottom-left{
       font-size: 18px;
     }
+    /*re aligning text */
     section.footer{
       position: absolute;
       bottom: -530px;
     }
+    /*fixing footer */
     
   section.footer{
     background-color:#fffd8c ;
@@ -162,12 +161,14 @@ section.labels{
     height: 300px;
 
   }
+  /*adjusting image*/
 
   div.links{
     display: flex;
     flex-grow: 100px;
     justify-content: space-evenly;
   }
+  /*aranging socail media links*/
   .container{
     display: flex;
     flex-direction: column-reverse;
@@ -181,6 +182,7 @@ section.labels{
     .bottom-left{
       font-size: 18px;
     }
+    /*ajusting fonts*/
     form.firstform{
       left: 100px;
       top: 690px;
@@ -209,7 +211,7 @@ form.firstform{
   left: 1000px;
   top: 100px;
   width: auto;
-  height: 500px;
+  height: 400px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -218,11 +220,13 @@ form.firstform{
   margin-bottom: 16px;
   resize: horizontal;
 }
+/*format form*/
 div.links{
   display: flex;
   flex-grow: 100px;
   justify-content: space-evenly;
 }
+/*adjusted links*/
 
       
   img.img{
@@ -234,6 +238,7 @@ div.links{
     height: 500px;
     align-items: center;
     left: 400px;
+    /*adjust image*/
 
   }
  
@@ -242,7 +247,7 @@ div.links{
     bottom: 0px;
     width: 100%;
     height: 180px;
-    
+    /*fixed footer */
   }
   .end{
     display: flex;
@@ -254,6 +259,7 @@ div.links{
     flex-direction: row;
     bottom: 50px;
     justify-content: space-between 10px;
+    /*changing links arangement*/
     
    
     justify-content: right;
@@ -276,13 +282,19 @@ div.links{
     
 
   }
+  /*re adjust again */
 
   div.links{
     display: flex;
+    margin: 0px auto 10px;
     right: 0px;
     bottom: 0px;
     flex-grow: 100px;
     
+  }
+  section.footer{
+    position: absolute;
+    bottom: -30px;
   }
 
   button.button2{

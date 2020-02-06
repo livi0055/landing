@@ -1,0 +1,298 @@
+@media only screen and (min-width: 300px) {
+  body{
+    background-color: #f7f7ff;
+}
+      
+  img.img{
+    position: absolute;
+    top: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+/*comment*/
+  }
+  div.hours{
+   
+  }
+  div.city{
+ 
+  }
+  div.cal{
+    position: absolute;
+    bottom: 8px;
+    
+   
+    margin: 10px;
+    left: -10px
+  }
+
+  div.links{
+    position: absolute;
+    bottom: -20px;
+    justify-content: ;
+  }
+
+  form.firstform{
+    display: flex;
+    position: absolute;
+    top: 630px;
+   
+    width: auto;
+    height: 460px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: auto;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #57eeab;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: #ff8480;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 310px;
+}
+section.labels{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+  img.logo{
+    display: flex;
+    margin: left;
+   width: 90px;
+   height: 90px;
+ 
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    }
+    .top-left{
+      display: flex;
+      margin: left;
+      font-size: 45px;
+      font-weight: bold;
+    }
+    .bottom-left{
+      font-size: 18px;
+    }
+    section.footer{
+      position: absolute;
+      bottom: -530px;
+    }
+    
+  section.footer{
+    background-color:#fffd8c ;
+    height: 250PX;
+    position: absolute;
+    bottom: -610px;
+  }
+  div.links{
+    display: flex;
+    flex-grow: 100px;
+    justify-content: space-evenly;
+  }
+  .end :nth-child(button2){
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+  }
+  .end{
+    display: flex;
+    flex-direction: row;
+  }
+      
+      
+      
+
+}
+
+
+@media only screen and (min-width: 480px) {
+  body{
+    background-color:#f7f7ff;
+}
+      
+  img.img{
+    display: flex;
+    float: left;
+    left: 100px;
+   
+    left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+
+  }
+
+  div.links{
+    display: flex;
+    flex-grow: 100px;
+    justify-content: space-evenly;
+  }
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    }
+    .top-left{
+      font-size: 45px;
+      font-weight: bold;
+      
+    }
+    .bottom-left{
+      font-size: 18px;
+    }
+    form.firstform{
+      left: 100px;
+      top: 690px;
+    }
+    section.footer{
+      bottom: -700px;
+    }
+    
+  
+}
+
+
+@media only screen and (min-width: 1000px) {
+  body{
+    background-color: #f7f7ff;
+}
+
+.container{
+  position: absolute;
+  top: 150px;
+}
+form.firstform{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1000px;
+  top: 100px;
+  width: auto;
+  height: 500px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+}
+div.links{
+  display: flex;
+  flex-grow: 100px;
+  justify-content: space-evenly;
+}
+
+      
+  img.img{
+    display: flex;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    left: 400px;
+
+  }
+ 
+  section.footer{
+  display: flex;
+    bottom: 0px;
+    width: 100%;
+    height: 180px;
+    
+  }
+  .end{
+    display: flex;
+   
+    
+  }
+  div.links{
+    display: flex;
+    flex-direction: row;
+    bottom: 50px;
+    justify-content: space-between 10px;
+    
+   
+    justify-content: right;
+  }
+
+  .block{
+    display: inline-block;
+  }
+  div.hours{
+    margin-top: 9px;
+    height: 10px;
+  }
+  div.city{
+    margin: 10px;
+    height: 10px;
+  }
+  div.cal{
+    margin: 10px;
+    right: 10px;
+    
+
+  }
+
+  div.links{
+    display: flex;
+    right: 0px;
+    bottom: 0px;
+    flex-grow: 100px;
+    
+  }
+
+  button.button2{
+    position: absolute;
+    left: 400px;
+    bottom: -10px;
+  }
+
+  }
+
+  
+
+
